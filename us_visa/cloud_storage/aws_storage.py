@@ -10,7 +10,6 @@ from botocore.exceptions import ClientError
 from pandas import DataFrame,read_csv
 import pickle
 
-
 class SimpleStorageService:
 
     def __init__(self):
